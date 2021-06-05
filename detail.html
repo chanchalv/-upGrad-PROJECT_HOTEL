@@ -1,15 +1,16 @@
 <html>
     <head>
-    
+        <link href="styles/common.css" rel="stylesheet">
+        <link href="styles/detail.css" rel="stylesheet">
     </head>
     <body>
-        <main div>
-            <header div>
-               <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="100" width="150"></a> 
-                <a href="C:\Users\Dell\Desktop\PROJECT-HOTEL\STARTER\login.html" target="_self">Login</a>
+        <div class="main">
+            <header class="header"><nav>
+               <a href="index.html"><img src="assests/images/logo.png" alt="logo" class="website-logo"></a> 
+                <a href="login.html" target="_self">Login</a></nav>
             </header> 
-            <content div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+            <section class="section"><nav>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"class="radisson-image">
             <form action="payment.html" method="GET" target="_self">
                 <label for="adults">Adults:</label>
                  <input type="number" id="adults" name="adults" required min="1" autocomplete="off"/> <br>
@@ -23,7 +24,7 @@
                  <input type="number" readonly/> <br>
                  <label for="book now"></label>
                  <input type="submit" value="Book Now"/>
-            </form>
+            </form></nav>
             <h2>Radisson Blu Hotel</h2>
         <p>RATING</p>
         <p>5 Star</p>
@@ -37,15 +38,15 @@
         </ul>
            <h5>DESCRIPTION</h5>
            <p>Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes</p>
-            </content>
-            <footer div>
-                <span><a href="C:\Users\Dell\Desktop\PROJECT-HOTEL\STARTER\contact.html" target="_self">Contact Us</a></span>
-              <div> <img src="assests/images/facebook.png" height="20" width="22" target="_blank">
-                <img src="assests/images/instagram.png" height="20" width="22" target="_blank">
-                <img src="assests/images/twitter.png" height="20" width="22" target="_blank">
-              </div>
-              <span>&copy; 2020 ROOM SEARCH PVT. LTD.</span>
-            </footer>
+            </section>
+            <footer class="footer">
+                
+                <div><a href="contact.html" target="_self">Contact Us</a> </div>
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" class="social-media-icons"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" class="social-media-icons"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="assests/images/twitter.png" class="social-media-icons"></a>
+                      <span>&copy; 2020 ROOM SEARCH PVT. LTD.</span>
+                    </footer>
             
         </div>
     </body>

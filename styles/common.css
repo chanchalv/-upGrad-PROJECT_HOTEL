@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    bottom: 0%;
+}
+.header{
+    top: 0%;
+}
+
+.website-logo {
+    height: 60px;
+    width: 60px;
+}
+.social-media-icons {
+    height: 20px;
+    width: 22px;
+}
