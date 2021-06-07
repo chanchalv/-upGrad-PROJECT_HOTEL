@@ -1,4 +1,15 @@
+#list-view{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+    
+}
+/* #list-view, #map-view{
+    scroll-behavior: smooth;
+} */
+
 .hotel-images{
+    
     height: 250px;
     width: 250px;
 }
