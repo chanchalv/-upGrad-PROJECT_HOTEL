@@ -1,15 +1,28 @@
 #list-view{
-    margin: 2%;
+    margin: 3%;
     background-color: rgb(132,136,139);
     width: 40%;
+    display: inline-block;
     
 }
-/* #list-view, #map-view{
-    scroll-behavior: smooth;
-} */
+.view-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.view-container{
+    margin-top: 2%; 
+    text-align: center;
+}
 
+.list-view-detail a{
+    text-decoration: none;
+    color: black;
+}
+#map-view {
+display: none;
+}
 .hotel-images{
-    
     height: 250px;
     width: 250px;
 }

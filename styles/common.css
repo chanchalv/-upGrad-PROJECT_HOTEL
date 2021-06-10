@@ -3,25 +3,59 @@ html, body{
     width: 100%;
     background-color: #e0e0e0;
     margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif; 
 }
+
 .header{
-    top: 0%;
-}
-.footer{
-    bottom: 0%;
-}
-.header, .footer{
+	top:0;
     background-color: rosybrown;
+    left: 0%;
+    width: 100%;
+    position: sticky;
     
 }
+.footer {
+    bottom: 0;
+    background-color:rosybrown;
+    left: 0%;
+    width: 100%;
+    position: sticky;
+}
+.section{
+    left: 0%;
+    width: 100%;
+   
 
-
-
-.website-logo {
+}
+.website-logo{
     height: 60px;
     width: 60px;
+}
+.nav-links{
+    float: right;
+    margin-top: 1.5%;
+    padding-right: 15px;
+}
+.nav-links a, .contact-container a{
+    text-decoration: none;
+    color: black;  
+}
+
+.contact-container a{
+    float: left;
+    margin-top: 1.5%;
+    padding-left: 15px;
 }
 .social-media-icons {
     height: 20px;
     width: 22px;
+}
+.copyright{
+    text-align: center;
+
+}
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 }

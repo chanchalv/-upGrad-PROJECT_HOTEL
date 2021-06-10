@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loading-spinner{
+    position: sticky;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top-color: #444444;
+     margin-top: 275px;
+    margin-left: 600px;
+   
+}

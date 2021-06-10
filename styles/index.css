@@ -1,24 +1,40 @@
-
-
-.search-image-container{
-    display: block;
+ .search-image-container {
+       display: block;
        margin-left: 15%;
        margin-right: 15%;
-   }
-
+    }
+    #view-bar  {
+        text-align: center;
+    }
+    #view-bar a{
+        text-decoration: none;
+        color: black;
+    }
+ 
 .images{
     height: 150px;
     width: 150px;
     padding: 4%;
     border-radius: 25%;
 }
-
-   .search-bar{
-    background-image:url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+#city-search{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     height: 380px;
     margin: 0%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size:cover;
-    
-       }
+    background-repeat: no-repeat;
+}
+
+ #city-search input{
+     display: block;
+    width: 100vmin;
+     margin: auto;
+     border: 1px solid transparent;
+     background-color: #f1f1f1;
+     font-size: 16px;
+     border-radius: 12px;
+     padding: 10px;
+     
+ }
+ 

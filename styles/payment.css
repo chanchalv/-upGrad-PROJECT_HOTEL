@@ -25,3 +25,7 @@
     padding-left: 2%;
     padding-right:2% ;
 }
+#content a{
+    text-decoration: none;
+    color: black;
+}
