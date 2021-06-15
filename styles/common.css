@@ -8,14 +8,16 @@ html, body{
 }
 
 .header{
+    display: flexbox;
 	top:0;
     background-color: rosybrown;
     left: 0%;
     width: 100%;
     position: sticky;
-    
 }
+
 .footer {
+    display: flexbox;
     bottom: 0;
     background-color:rosybrown;
     left: 0%;
@@ -23,19 +25,25 @@ html, body{
     position: sticky;
 }
 .section{
+    
     left: 0%;
-    width: 100%;
+    width: 100%; 
+    
    
 
 }
 .website-logo{
     height: 60px;
     width: 60px;
+    margin-left: 1%;
+    
 }
-.nav-links{
-    float: right;
-    margin-top: 1.5%;
-    padding-right: 15px;
+.nav-links {
+    float: right; 
+     margin-top: 1.5%; 
+    margin-right: 2%;
+   
+    
 }
 .nav-links a, .contact-container a{
     text-decoration: none;
@@ -45,15 +53,15 @@ html, body{
 .contact-container a{
     float: left;
     margin-top: 1.5%;
-    padding-left: 15px;
+    margin-left: 2%;
 }
 .social-media-icons {
     height: 20px;
     width: 22px;
+    
 }
 .copyright{
     text-align: center;
-
 }
 @font-face {
     font-family: 'Ubuntu', sans-serif;
