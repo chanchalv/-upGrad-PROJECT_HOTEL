@@ -25,43 +25,37 @@ html, body{
     position: sticky;
 }
 .section{
-    
     left: 0%;
     width: 100%; 
-    
-   
-
 }
 .website-logo{
     height: 60px;
     width: 60px;
     margin-left: 1%;
-    
 }
 .nav-links {
     float: right; 
      margin-top: 1.5%; 
     margin-right: 2%;
-   
-    
 }
 .nav-links a, .contact-container a{
     text-decoration: none;
     color: black;  
 }
-
 .contact-container a{
     float: left;
-    margin-top: 1.5%;
+    margin-top: .5%;
     margin-left: 2%;
 }
 .social-media-icons {
     height: 20px;
     width: 22px;
-    
 }
-.copyright{
-    text-align: center;
+.copyright {
+    
+    margin-left: 41%;
+
+   
 }
 @font-face {
     font-family: 'Ubuntu', sans-serif;

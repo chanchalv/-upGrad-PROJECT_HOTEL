@@ -3,6 +3,7 @@
 }
 .description{
    display: flex;
+   flex-direction: row;
     height: 400px;
     margin: 2%;
     border: 1px solid black;
@@ -10,22 +11,25 @@
 #radisson-image{
     height: 350px;
     width: 500px;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 1%;
 }
-form input{
-    min-width: 60%;
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid black;
+    margin: 0 10px;
+    height: 400px;
 }
-.description-child, .input-child{
-    display: flex;
+.description-child{
     margin:auto;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
 }
+
 .hotel-desciption-container{
     margin-top: 1%; 
     margin-left: 4%;
