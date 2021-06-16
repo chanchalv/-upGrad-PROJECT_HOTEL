@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
 }
+
 .description{
    display: flex;
+   
    flex-direction: row;
     height: 400px;
     margin: 2%;
@@ -23,6 +25,7 @@
     height: 400px;
 }
 .description-child{
+    
     margin:auto;
     top: 0;
     right: 0;
@@ -37,3 +40,15 @@
     margin-bottom: 2%;
     font-family: cursive;
 }
+
+.carousel-item {
+    height: 350px;
+    width: 500px;
+   
+}
+/* .carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 55px;
+   width: 55px;
+color: rosybrown;
+   margin: auto;
+} */
