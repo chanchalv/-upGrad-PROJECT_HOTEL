@@ -3,6 +3,11 @@
       display: flex;
       justify-content: space-evenly;
   }
+  .search-image-container-1{
+    display: flex;
+    justify-content: space-around;
+    
+}
     #view-bar  {
         text-align: center;
     }
@@ -16,7 +21,7 @@
     border-radius: 25%;
     box-shadow: 10px 10px 10px grey;
 }
-.container {
+.container, .container-1 {
     position: relative;
     text-align: center;
     color: white;
@@ -29,14 +34,14 @@
    bottom: 50%;
 }
 
-.container div{
+.container div , .container-1 div{
   display: none;
 }
-.container:hover div{
+.container:hover div , .container-1:hover div{
 display: block;
 }
 
-.container:hover img{
+.container:hover img, .container-1:hover img{
     opacity: .5;
 }
 
