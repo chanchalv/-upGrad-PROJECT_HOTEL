@@ -7,9 +7,7 @@ html, body{
     font-family: 'Ubuntu', sans-serif; 
 }
 
-  
-
-.header{
+#header{
     display: flexbox;
 	top:0;
     background-color: rosybrown;
@@ -18,7 +16,7 @@ html, body{
     position: sticky;
 }
 
-.footer {
+#footer {
     display: flexbox;
     bottom: 0;
     background-color:rosybrown;
@@ -26,6 +24,8 @@ html, body{
     width: 100%;
     position: sticky;
 }
+
+
 .section{
     left: 0%;
     width: 100%; 

@@ -3,18 +3,21 @@
       display: flex;
       justify-content: space-evenly;
   }
-  .search-image-container-1{
+  #search-image-container-1{
+    display: none;
+ }
+ .cities-2{
+     display: flex;
+     justify-content: space-around;
+ }
+ #view-bar  {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
 }
-    #view-bar  {
-        text-align: center;
-    }
-    #view-bar a{
-        text-decoration: none;
-        color: black;
-    }
+#view-bar nav{
+    text-decoration: none;
+    color: black;
+}
 .images {
     height: 150px;
     width: 150px;
@@ -26,6 +29,7 @@
     text-align: center;
     color: white;
   }
+
 .center{
     position:absolute;
    top: 50%;
